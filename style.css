@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+  display: flex;
+}
+
+main {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MrDulfin {
+  font-size: 4em;
+}
+
+.menu {
+  position: relative;
+  top: 75px;
+  font-size: 150%;
+}
+
+.top2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials {
+  position: relative;
+  /* top: 100px; */
+  font-size: 125%;
+}
+
+.top3 {
+  font-size: 200%;
+  text-align: center;
+}
+
+.bottom {
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.bottom h2 {
+  align-self: center;
+}
+
+.bottomSection {
+  border: solid thin;
+  padding: 25px;
+  padding-top: 5px;
+}
+
+.favs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favSection {
+  width: 50%;
+}
+
+
+.footer {
+  position: relative;
+  top: 50px;
+  padding: 50px;
+  align-self: center;
+}
