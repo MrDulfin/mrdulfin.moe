@@ -1,47 +1,4 @@
-body {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-}
-
-main {
-  width: 75%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.top {
-  display: flex;
-  justify-content: space-between;
-}
-
-.MrDulfin {
-  font-size: 4em;
-}
-
-.menu {
-  position: relative;
-  top: 75px;
-  font-size: 150%;
-}
-
-.top2 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.socials {
-  position: relative;
-  font-size: 125%;
-}
-
-.top3 {
-  font-size: 200%;
-  text-align: center;
-}
-
+@import url("../base.css");
 
 .gallery {
   display: flex;
